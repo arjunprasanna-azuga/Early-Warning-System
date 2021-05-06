@@ -18,7 +18,7 @@ This repo contains details about the Early Warning System (Churn Prediction)
     * if the customer is still active, age is the difference between May 01 (study end date) and joining date
   Customers with negative age are the ones that have rejoined azuga. The reason for the negative age is the presence of old churn   date. In these cases, age is computed as the difference between joining date (new) and May 01 (study end date)
   - remove customers with age less than 30 days (we will not have sufficient data about them for our analysis)
-  - Update Inactive Flag based on the Account Status
+  - update Inactive Flag based on the Account Status
     * if the account is active, ensure that the Inactive Date is NULL
 - data bucketing
   - categorize customers based on age
